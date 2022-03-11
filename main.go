@@ -1,7 +1,9 @@
 package main
 
-import "karodwithtests/network/packets"
+import (
+	"karodwithtests/pkg/network/packets/streams"
+)
 
 func main() {
-	packets.InitBidirectionalStream()
+	streams.InitBidirectionalStream()
 }
