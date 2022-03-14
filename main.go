@@ -1,6 +1,6 @@
 package main
 
-import "karodwithtests/network/packets"
+import "github.com/quantosnetwork/karodwithtests/network/packets"
 
 func main() {
 	packets.InitBidirectionalStream()
